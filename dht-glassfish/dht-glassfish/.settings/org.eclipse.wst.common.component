@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="dht-glassfish">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="dht-state.jar" deploy-path="/" handle="module:/resource/dht-state/dht-state">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-routing.jar" deploy-path="/" handle="module:/resource/dht-routing/dht-routing">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-node.jar" deploy-path="/" handle="module:/resource/dht-node/dht-node">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-rest.war" deploy-path="/" handle="module:/resource/dht-rest/dht-rest">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-client.jar" deploy-path="/" handle="module:/resource/dht-client/dht-client">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-routingClient.jar" deploy-path="/" handle="module:/resource/dht-routingClient/dht-routingClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-nodeClient.jar" deploy-path="/" handle="module:/resource/dht-nodeClient/dht-nodeClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-stateClient.jar" deploy-path="/" handle="module:/resource/dht-stateClient/dht-stateClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-domain.jar" deploy-path="/lib" handle="module:/resource/dht-domain/dht-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-representation.jar" deploy-path="/lib" handle="module:/resource/dht-representation/dht-representation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dht-webclient.jar" deploy-path="/lib" handle="module:/resource/dht-webclient/dht-webclient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
